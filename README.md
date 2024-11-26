@@ -15,9 +15,7 @@
 
 ### 附加功能：
 #### 排序功能：默认按照最后修改时间排序，点击排序按钮后按照笔记标题首字母排序（包括字母、汉字、数字和标点符号的排序）。
-![Alt Text](./README_PIC/A006.png)
-
-![Alt Text](./README_PIC/A005.png)
+![Alt Text](./README_PIC/A005.png) ![Alt Text](./README_PIC/A006.png)
 
 #### 更换背景：在笔记编辑页面，可以设置笔记的背景颜色。
 ![Alt Text](./README_PIC/A007.png) ![Alt Text](./README_PIC/A008.png)
