@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/28a9e47f-1d67-4426-944a-7a1c16ccc3aa)# NotePad 项目
+# NotePad 项目
 
 ## 项目简介
 
