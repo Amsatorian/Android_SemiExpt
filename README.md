@@ -1,4 +1,4 @@
-# NotePad 项目
+![image](https://github.com/user-attachments/assets/28a9e47f-1d67-4426-944a-7a1c16ccc3aa)# NotePad 项目
 
 ## 项目简介
 
@@ -18,7 +18,7 @@
 ![Alt Text](./README_PIC/A005.png) ![Alt Text](./README_PIC/A006.png)
 
 #### 更换背景：在笔记编辑页面，可以设置笔记的背景颜色。
-![Alt Text](./README_PIC/A007.png) ![Alt Text](./README_PIC/A008.png) ![Alt Text](./README_PIC/A010.png)
+![Alt Text](./README_PIC/A007.png) ![Alt Text](./README_PIC/A011.png) ![Alt Text](./README_PIC/A008.png) ![Alt Text](./README_PIC/A010.png) 
 
 ## 安装与使用
 
