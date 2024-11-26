@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 添加新笔记的按钮 -->
+    <item
+        android:id="@+id/menu_add"
+        android:icon="@drawable/ic_menu_compose"
+        android:title="@string/menu_add"
+        android:alphabeticShortcut="a"
+        android:showAsAction="ifRoom" />
+
+    <!-- 搜索按钮 -->
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="搜索"
+        android:showAsAction="always|collapseActionView"
+        android:actionViewClass="android.widget.SearchView"
+        tools:ignore="HardcodedText" />
+
+    <!-- 粘贴的按钮 -->
+    <item
+        android:id="@+id/menu_paste"
+        android:icon="@drawable/ic_menu_compose"
+        android:title="@string/menu_paste"
+        android:alphabeticShortcut="p" />
+
+    <!-- 排序按钮 -->
+    <item
+        android:id="@+id/menu_sort"
+        android:title="按标题排序"
+        android:icon="@android:drawable/ic_menu_sort_alphabetically"
+        android:showAsAction="always|collapseActionView"
+        tools:ignore="HardcodedText" />
+
+</menu>
