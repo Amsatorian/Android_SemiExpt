@@ -34,19 +34,26 @@
 ## 项目结构
 
 ### Java类
-app/src/main/java/com/example/android/notepad/<br>
-├─ NoteEditor.java                     笔记编辑页面的 Activity，负责笔记的编辑和保存功能<br>
-├─ NotePad.java                        主 Activity，负责展示笔记列表和其他功能，如排序、搜索等<br>
-├─ NotePadProvider.java                提供数据库访问和内容提供者功能，用于与数据库交互<br>
-├─ NotesList.java                      笔记列表的 Activity，展示所有笔记的列表<br>
-├─ NotesLiveFolder.java                处理与文件夹和笔记的动态管理功能<br>
-├─ TitleEditor.java                    负责编辑笔记标题的 Activity<br>
+#### NoteEditor.java:
+笔记编辑页面的 Activity，负责笔记的编辑和保存功能<br>
+#### NotePad.java:
+主 Activity，负责展示笔记列表和其他功能，如排序、搜索等<br>
+#### NotePadProvider.java:
+提供数据库访问和内容提供者功能，用于与数据库交互<br>
+#### NotesList.java:
+笔记列表的 Activity，展示所有笔记的列表<br>
+#### NotesLiveFolder.java:
+处理与文件夹和笔记的动态管理功能<br>
+#### TitleEditor.java:
+负责编辑笔记标题的 Activity<br>
 
 ### Layout布局文件
-app/src/main/res/layout/<br>
-├─ note_editor.xml                   # 笔记编辑页面的布局文件，包含编辑框、按钮等<br>
-├─ noteslist_item.xml                # 单个笔记项的布局文件，展示笔记标题和其他信息<br>
-├─ title_editor.xml                  # 标题编辑页面的布局文件，用于编辑笔记的标题<br>
+#### note_editor.xml:
+笔记编辑页面的布局文件，包含编辑框、按钮等<br>
+#### noteslist_item.xml:
+单个笔记项的布局文件，展示笔记标题和其他信息<br>
+#### title_editor.xml:
+标题编辑页面的布局文件，用于编辑笔记的标题<br>
 
 ## 配置详情
 
