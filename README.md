@@ -35,18 +35,13 @@
 
 ### Java类
 app/src/main/java/com/example/android/notepad/<br>
-├─ MainActivity.java                # 主页面 Activity，负责展示笔记列表、搜索和排序功能<br>
-├─ NoteEditActivity.java           # 编辑页面 Activity，负责笔记编辑与背景颜色设置<br>
-├─ Note.java                        # 笔记模型类，包含笔记的标题、内容和最后修改时间等数据字段<br>
-├─ NoteAdapter.java                 # 笔记列表的适配器类，负责绑定数据到 RecyclerView<br>
-├─ DatabaseHelper.java              # 数据库帮助类，负责数据库操作，如插入、更新、删除笔记<br>
-├─ NoteSearchFragment.java          # 笔记搜索功能的 Fragment，处理用户的搜索请求<br>
+├─ NoteEditor.java                     笔记编辑页面的 Activity，负责笔记的编辑和保存功能<br>
+├─ NotePad.java                        主 Activity，负责展示笔记列表和其他功能，如排序、搜索等<br>
+├─ NotePadProvider.java                提供数据库访问和内容提供者功能，用于与数据库交互<br>
+├─ NotesList.java                      笔记列表的 Activity，展示所有笔记的列表<br>
+├─ NotesLiveFolder.java                处理与文件夹和笔记的动态管理功能<br>
+├─ TitleEditor.java                    负责编辑笔记标题的 Activity<br>
 
-### layout文件
-app/src/main/res/layout/<br>
-├─ activity_main.xml                # 主页面布局文件，包含 RecyclerView、搜索框等组件<br>
-├─ activity_note_edit.xml           # 编辑页面布局文件，包含笔记输入框和背景颜色选择器<br>
-├─ item_note.xml                    # 单个笔记项布局文件，展示笔记的标题和最后修改时间<br>
 
 ## 配置详情
 
