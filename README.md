@@ -6,7 +6,7 @@
 
 ## 功能特点
 
-- **主页搜索**：用户可以通过标题或内容搜索笔记。
+### 主页搜索：用户可以通过标题或内容搜索笔记。
 - ![Alt Text](./README_PIC/A001.png) ![Alt Text](./README_PIC/A002.png) ![Alt Text](./README_PIC/A003.png) ![Alt Text](./README_PIC/A004.png)
 - **排序功能**：
   - 按照最后修改时间排序。
