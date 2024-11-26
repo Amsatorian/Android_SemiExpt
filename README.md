@@ -2,22 +2,25 @@
 
 ## 项目简介
 
-这个项目是一个简单的笔记应用，支持笔记管理、搜索和排序功能。用户可以在主页上按标题或最后修改时间对笔记进行排序，并在笔记内部自定义背景颜色。每个笔记会显示最后修改的时间戳，方便用户查看修改记录。
+这个项目是一个基于NotePad应用基础上进行二次开发的简单的笔记应用，支持笔记管理、搜索和排序功能。用户可以在主页上按标题或最后修改时间对笔记进行排序，并在笔记内部自定义背景颜色。每个笔记会显示最后修改的时间戳，方便用户查看修改记录。
 
 ## 功能特点
 
-### 主页搜索：用户可以通过标题或内容搜索笔记。
-![Alt Text](./README_PIC/A001.png) ![Alt Text](./README_PIC/A002.png) ![Alt Text](./README_PIC/A003.png) ![Alt Text](./README_PIC/A004.png)
-### 排序功能：
-#### 按照最后修改时间排序。
-![Alt Text](./README_PIC/A005.png)
-#### 按照笔记标题排序，支持传统排序方式（包括字母、汉字、数字和标点符号的排序）。
-![Alt Text](./README_PIC/A006.png)
-
-#### 笔记编辑：在笔记编辑页面，可以设置笔记的背景颜色。
-![Alt Text](./README_PIC/A007.png) ![Alt Text](./README_PIC/A008.png)
+### 基础功能：
 #### 时间戳显示：每个笔记会显示最后修改的时间戳。
 ![Alt Text](./README_PIC/A009.png)
+
+#### 主页搜索：用户可以通过标题或内容搜索笔记。
+![Alt Text](./README_PIC/A001.png) ![Alt Text](./README_PIC/A002.png) ![Alt Text](./README_PIC/A003.png) ![Alt Text](./README_PIC/A004.png)
+
+### 附加功能：
+#### 排序功能：默认按照最后修改时间排序，点击排序按钮后按照笔记标题首字母排序（包括字母、汉字、数字和标点符号的排序）。
+![Alt Text](./README_PIC/A006.png)
+
+![Alt Text](./README_PIC/A005.png)
+
+#### 更换背景：在笔记编辑页面，可以设置笔记的背景颜色。
+![Alt Text](./README_PIC/A007.png) ![Alt Text](./README_PIC/A008.png)
 
 ## 安装与使用
 
