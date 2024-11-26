@@ -80,10 +80,3 @@ packagingOptions {
 ## 贡献者
 
 Amsatorian：项目的拓展功能贡献者。
-
-## 许可证
-
-本项目采用 [MIT 许可证](LICENSE)。
-
-
-
