@@ -31,9 +31,10 @@
 
 3. 运行应用程序并开始使用。
 
-## 项目结构
+## 项目主要结构
 
 ### Java类
+
 #### NoteEditor.java:
 笔记编辑页面的 Activity，负责笔记的编辑和保存功能<br>
 #### NotePad.java:
@@ -48,6 +49,7 @@
 负责编辑笔记标题的 Activity<br>
 
 ### Layout布局文件
+
 #### note_editor.xml:
 笔记编辑页面的布局文件，包含编辑框、按钮等<br>
 #### noteslist_item.xml:
