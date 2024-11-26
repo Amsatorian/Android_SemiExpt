@@ -31,6 +31,23 @@
 
 3. 运行应用程序并开始使用。
 
+## 项目结构
+
+### Java类
+app/src/main/java/com/example/android/notepad/
+├─ MainActivity.java                # 主页面 Activity，负责展示笔记列表、搜索和排序功能
+├─ NoteEditActivity.java           # 编辑页面 Activity，负责笔记编辑与背景颜色设置
+├─ Note.java                        # 笔记模型类，包含笔记的标题、内容和最后修改时间等数据字段
+├─ NoteAdapter.java                 # 笔记列表的适配器类，负责绑定数据到 RecyclerView
+├─ DatabaseHelper.java              # 数据库帮助类，负责数据库操作，如插入、更新、删除笔记
+├─ NoteSearchFragment.java          # 笔记搜索功能的 Fragment，处理用户的搜索请求
+
+### layout文件
+app/src/main/res/layout/
+├─ activity_main.xml                # 主页面布局文件，包含 RecyclerView、搜索框等组件
+├─ activity_note_edit.xml           # 编辑页面布局文件，包含笔记输入框和背景颜色选择器
+├─ item_note.xml                    # 单个笔记项布局文件，展示笔记的标题和最后修改时间
+
 ## 配置详情
 
 ### 1. `使用JDK9的版本`
