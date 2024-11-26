@@ -7,17 +7,17 @@
 ## 功能特点
 
 ### 主页搜索：用户可以通过标题或内容搜索笔记。
-- ![Alt Text](./README_PIC/A001.png) ![Alt Text](./README_PIC/A002.png) ![Alt Text](./README_PIC/A003.png) ![Alt Text](./README_PIC/A004.png)
-- **排序功能**：
-  - 按照最后修改时间排序。
-  - ![Alt Text](./README_PIC/A005.png)
-  - 按照笔记标题排序，支持传统排序方式（包括字母、汉字、数字和标点符号的排序）。
-  - ![Alt Text](./README_PIC/A006.png)
+![Alt Text](./README_PIC/A001.png) ![Alt Text](./README_PIC/A002.png) ![Alt Text](./README_PIC/A003.png) ![Alt Text](./README_PIC/A004.png)
+### 排序功能：
+#### 按照最后修改时间排序。
+![Alt Text](./README_PIC/A005.png)
+#### 按照笔记标题排序，支持传统排序方式（包括字母、汉字、数字和标点符号的排序）。
+![Alt Text](./README_PIC/A006.png)
 
-- **笔记编辑**：在笔记编辑页面，可以设置笔记的背景颜色。
-- ![Alt Text](./README_PIC/A007.png) ![Alt Text](./README_PIC/A008.png)
-- **时间戳显示**：每个笔记会显示最后修改的时间戳。
-- ![Alt Text](./README_PIC/A009.png)
+#### 笔记编辑：在笔记编辑页面，可以设置笔记的背景颜色。
+![Alt Text](./README_PIC/A007.png) ![Alt Text](./README_PIC/A008.png)
+#### 时间戳显示：每个笔记会显示最后修改的时间戳。
+![Alt Text](./README_PIC/A009.png)
 
 ## 安装与使用
 
