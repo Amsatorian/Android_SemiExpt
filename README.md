@@ -10,7 +10,7 @@
 #### 时间戳显示：每个笔记会显示最后修改的时间戳。
 ![Alt Text](./README_PIC/A009.png)
 
-#### 主页搜索：用户可以通过标题或内容搜索笔记。
+#### 主页搜索：用户可以通过笔记标题搜索笔记。
 ![Alt Text](./README_PIC/A001.png) ![Alt Text](./README_PIC/A002.png) ![Alt Text](./README_PIC/A003.png) ![Alt Text](./README_PIC/A004.png)
 
 ### 附加功能：
@@ -18,7 +18,7 @@
 ![Alt Text](./README_PIC/A005.png) ![Alt Text](./README_PIC/A006.png)
 
 #### 更换背景：在笔记编辑页面，可以设置笔记的背景颜色。
-![Alt Text](./README_PIC/A007.png) ![Alt Text](./README_PIC/A008.png)
+![Alt Text](./README_PIC/A007.png) ![Alt Text](./README_PIC/A008.png) ![Alt Text](./README_PIC/A010.png)
 
 ## 安装与使用
 
