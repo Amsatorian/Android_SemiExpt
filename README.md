@@ -20,17 +20,6 @@
 #### 更换背景：在笔记编辑页面，可以设置笔记的背景颜色。
 ![Alt Text](./README_PIC/A007.png) ![Alt Text](./README_PIC/A011.png) ![Alt Text](./README_PIC/A008.png) ![Alt Text](./README_PIC/A010.png) 
 
-## 安装与使用
-
-1. 将项目克隆到本地：
-    ```bash
-    git clone https://github.com/amsatorian/Android_SemiExpt.git
-    ```
-
-2. 导入 Android Studio 并构建项目。
-
-3. 运行应用程序并开始使用。
-
 ## 项目主要结构
 
 ### Java类
@@ -57,52 +46,18 @@
 #### title_editor.xml:
 标题编辑页面的布局文件，用于编辑笔记的标题<br>
 
-## 配置详情
+## 实现过程
 
-### 1. `使用JDK9的版本`
+### 1.时间戳显示
 
-### 2. `gradle-wrapper.properties`
-
-请使用以下配置的 `distributionUrl`：
-
-![Alt Text](./001.png)
-
-```properties
-distributionUrl=https\://services.gradle.org/distributions/gradle-6.7.1-bin.zip
+#### 1.1 修改PROJECTION数组，添加时间戳字段COLUMN_NAME_MODIFICATION_DATE
 ```
-
-### 3.  `build.gradle(notepad)`
-classpath请使用3.4.0:
-
-![Alt Text](./002.png)
-
-```properties
-classpath="com.android.tools.build:gradle:3.4.0"
+ private static final String[] PROJECTION = new String[] {
+            NotePad.Notes._ID, // 0
+            NotePad.Notes.COLUMN_NAME_TITLE, // 1
+            NotePad.Notes.COLUMN_NAME_MODIFICATION_DATE // 2
+    };
 ```
-### 4. `build成功之后`
-#### 4.1 `Error:Execution failed for task ':app:packageDebug'... 出现这个报错`
-build.gradle（:app）中的 android{ ... } 中 添加：
-
-![Alt Text](./003.png)
-
-```properties
-packagingOptions {
-    exclude 'META-INF/DEPENDENCIES.txt'
-    exclude 'META-INF/LICENSE.txt'
-    exclude 'META-INF/NOTICE.txt'
-    exclude 'META-INF/NOTICE'
-    exclude 'META-INF/LICENSE'
-    exclude 'META-INF/DEPENDENCIES'
-    exclude 'META-INF/notice.txt'
-    exclude 'META-INF/license.txt'
-    exclude 'META-INF/dependencies.txt'
-    exclude 'META-INF/LGPL2.1'
-}
-```
-#### 4.2 `com.android.ide.common.signing.KeytoolException: Failed to read key AndroidDebugKey from store出现这个问题`
-请删除以下两个文件并clean build之后rebuild（此文件的地址请看报错信息）:
-
-![Alt Text](./004.png)
 
 ## 贡献者
 
